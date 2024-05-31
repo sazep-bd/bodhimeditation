@@ -24,6 +24,7 @@ The following commands are useful for development on your computer.
   * [Learn ReactJS](https://react.dev/learn)
   * [Learn NextJS](https://nextjs.org/learn)
   * [Learn TailwindCSS](https://tailwindcss.com/docs/installation)
+  * [NextJS 14 Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI)
 
 ## Contribution
 
