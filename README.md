@@ -17,6 +17,13 @@ The following are the steps you need to setup your computer for development.
 The following commands are useful for development on your computer.
   * `yarn dev` - start the website on your computer
 
+## Learning Resources
+  * [Learn Git](https://git-scm.com/doc)
+  * [Learn Yarn](https://classic.yarnpkg.com/en/docs/cli/)
+  * [Learn ReactJS](https://react.dev/learn)
+  * [Learn NextJS](https://nextjs.org/learn)
+  * [Learn TailwindCSS](https://tailwindcss.com/docs/installation)
+
 ## Contribution
 
   * [Joono Pohr Chakma](https://github.com/joonochakma)
