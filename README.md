@@ -20,6 +20,7 @@ The following commands are useful for development on your computer.
 ## Learning Resources
   * [Learn Git](https://git-scm.com/doc)
   * [Learn Yarn](https://classic.yarnpkg.com/en/docs/cli/)
+  * [Atomic Design](https://atomicdesign.bradfrost.com/table-of-contents/)
   * [Learn ReactJS](https://react.dev/learn)
   * [Learn NextJS](https://nextjs.org/learn)
   * [Learn TailwindCSS](https://tailwindcss.com/docs/installation)
