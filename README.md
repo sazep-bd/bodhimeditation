@@ -29,3 +29,6 @@ The following commands are useful for development on your computer.
 ## Contribution
 
   * [Joono Pohr Chakma](https://github.com/joonochakma)
+  * [Devjoy Chakma](https://github.com/Devjoy-chakma)
+  * [Sousthab Chakma](https://github.com/SousthabChakma)
+  * [Gourab Chakma](https://github.com/lgr2002)
