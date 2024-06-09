@@ -32,3 +32,4 @@ The following commands are useful for development on your computer.
   * [Devjoy Chakma](https://github.com/Devjoy-chakma)
   * [Sousthab Chakma](https://github.com/SousthabChakma)
   * [Gourab Chakma](https://github.com/lgr2002)
+  * [Nishan Chakma](https://github.com/cknishan)
