@@ -34,5 +34,3 @@ The following commands are useful for development on your computer.
   * [Gourab Chakma](https://github.com/lgr2002)
   * [Nishan Chakma](https://github.com/cknishan)
 
-
-test
