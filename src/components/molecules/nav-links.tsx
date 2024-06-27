@@ -4,15 +4,21 @@ import React from 'react';
 
 const Navlinks = () => {
   return (
-    <div>
-      <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-        Features
+    <div className="grid grid-cols-4 gap-3 items-center">
+      <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
+        Home
       </a>
-      <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-        Marketplace
+      <a
+        href="/resources"
+        className="text-sm font-semibold leading-6 text-gray-900"
+      >
+        Resources
       </a>
-      <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-        Company
+      <a
+        href="/contacts"
+        className="text-sm font-semibold leading-6 text-gray-900"
+      >
+        Contacts
       </a>
     </div>
   );

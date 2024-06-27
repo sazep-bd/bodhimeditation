@@ -5,7 +5,7 @@ import ImageWithLink from "../atoms/BodhiLogo";
 
 const Header = () => {
   return (
-    <div>
+    <div className="flex">
       <ImageWithLink />
       <Navlinks />
     </div>
