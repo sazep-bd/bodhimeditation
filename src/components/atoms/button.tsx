@@ -11,8 +11,11 @@ const handleClick = (href: string) => {
 const Button = (props: ButtonProps) => {
     
     return (
-        <button onClick={() => handleClick(props.href)}> click {props.label}</button>
+        <button className="border-transparent px-3 py-2 rounded-lg cursor-pointer bg-stone-500 hover:bg-stone-700 " onClick={() => handleClick(props.href)} 
+        >{props.label} {"--->"}</button>
     )
+
 }
+
 
 export default Button;
