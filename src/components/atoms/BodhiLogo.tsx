@@ -4,7 +4,7 @@ import Link from 'next/link'; // Import from next/link for Next.js routing
 
 const ImageWithLink = () => {
   return (
-    <div>
+    <div className='float-left'>
       <Link href="/">
         <img
           src="/images/BODHI_Logo_v2.0.png"
