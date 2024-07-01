@@ -5,58 +5,56 @@ import React from 'react';
 
 const Navlinks = () => {
   return (
-    <div className="grid grid-cols-4 gap-3 items-center">
-      <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
+    <div className="float-right pl-96 pr-16 grid grid-flow-col gap-2  items-center justify-items-center ">
+      <a href="/" className="text-sm leading-6 text-gray-900">
         Home
       </a>
       <Disclosure>
-        <DisclosureButton className="py-2">Events</DisclosureButton>
+        <DisclosureButton className="py-2 text-gray-900">
+          Events
+        </DisclosureButton>
         <DisclosurePanel className="text-gray-900">
-          <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/" className="text-sm leading-6 text-gray-900">
             Regular Events
           </a>
-          <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/" className="text-sm leading-6 text-gray-900">
             Special Events
           </a>
-          <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/" className="text-sm leading-6 text-gray-900">
             Dhamma Teaching
           </a>
-          <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/" className="text-sm leading-6 text-gray-900">
             Learning Buddhism
           </a>
-          <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/" className="text-sm leading-6 text-gray-900">
             Learning Meditation
           </a>
-          <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/" className="text-sm leading-6 text-gray-900">
             Fung
           </a>
         </DisclosurePanel>
       </Disclosure>
       <Disclosure>
-        <DisclosureButton className="py-2">Support us</DisclosureButton>
+        <DisclosureButton className="py-2 text-gray-900">
+          Support us
+        </DisclosureButton>
         <DisclosurePanel className="text-gray-900">
-          <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/" className="text-sm leading-6 text-gray-900">
             Dana
           </a>
-          <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/" className="text-sm leading-6 text-gray-900">
             Donation
           </a>
-          <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
-            Volunteering 
+          <a href="/" className="text-sm leading-6 text-gray-900">
+            Volunteering
           </a>
         </DisclosurePanel>
       </Disclosure>
 
-      <a
-        href="/resources"
-        className="text-sm font-semibold leading-6 text-gray-900"
-      >
+      <a href="/resources" className="text-sm leading-6 text-gray-900">
         Resources
       </a>
-      <a
-        href="/contacts"
-        className="text-sm font-semibold leading-6 text-gray-900"
-      >
+      <a href="/contacts" className="text-sm leading-6 text-gray-900">
         Contacts
       </a>
     </div>
