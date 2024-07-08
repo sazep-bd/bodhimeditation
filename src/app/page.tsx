@@ -1,7 +1,7 @@
 import ImageWithLink from "@/components/atoms/BodhiLogo";
+import HomeImageCard from "@/components/molecules/HomeImageCard";
 import Header from "@/components/organisms/header";
 import Image from "next/image";
-import Card from "@/components/atoms/Card";
 
 export default function Home() {
   return (
@@ -10,16 +10,12 @@ export default function Home() {
         <Header />
       </div>
 
-      <Card className="flex flex-col gap-2 bg-white text-black max-w-xs p-4">
-        <div className="bg-[url('/images/Learning_Bhuddhism_2.jpg')] h-64 bg-center justify-center"></div>
-        {/* <img src="\images\Learning_Bhuddhism_2.jpg" alt="" /> */}
-        <div className=" text-4xl text-center">Dhamma Teaching</div>
-        <div className="bg-light-grey w-fit p-2 rounded">
-          Please join our weekly meditation session to learn about Buddhism and Meditation.
-          Add more text here...
-        </div>
-      </Card>
-      
+      <HomeImageCard
+        imageUrl="/images/Learning_Bhuddhism_2.jpg"
+        title="Dhamma Teaching"
+        description="Please join our weekly meditation session to learn about Buddhism and Meditation. Add more text here..."
+      />
+
     </main>
   );
 }
