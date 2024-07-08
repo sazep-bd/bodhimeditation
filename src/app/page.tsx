@@ -1,13 +1,15 @@
 import ImageWithLink from "@/components/atoms/BodhiLogo";
 import Header from "@/components/organisms/header";
 import Image from "next/image";
+import HeroBanner from "@/components/organisms/HeroBanner";
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <Header />
-      </div>
+    <main className="flex min-h-screen flex-col">
+      <Header />
+      <HeroBanner />
     </main>
   );
 }
+
+export default Home;
