@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
 import React from 'react';
+import { useState } from "react";
+import { ChevronDownIcon} from '@heroicons/react/20/solid';
 
 
 const Navlinks = () => {
@@ -10,9 +12,13 @@ const Navlinks = () => {
         Home
       </a>
       <Disclosure>
-        <DisclosureButton className="py-2 text-gray-900">
+        <DisclosureButton className="py-2 gap-0 text-gray-900">
           Events
         </DisclosureButton>
+        <ChevronDownIcon
+          aria-hidden="true"
+          className="h-5 w-5 gap-0 text-gray-900"
+        />
         <DisclosurePanel className="text-gray-900">
           <a href="/" className="text-sm leading-6 text-gray-900">
             Regular Events
@@ -38,6 +44,11 @@ const Navlinks = () => {
         <DisclosureButton className="py-2 text-gray-900">
           Support us
         </DisclosureButton>
+        <ChevronDownIcon
+          aria-hidden="true"
+          className="h-5 w-5 relative text-gray-900"
+        />
+
         <DisclosurePanel className="text-gray-900">
           <a href="/" className="text-sm leading-6 text-gray-900">
             Dana
