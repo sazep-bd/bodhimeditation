@@ -1,24 +1,28 @@
 /* eslint-disable @next/next/no-img-element */
-import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
-import React from 'react';
-import { useState } from "react";
-import { ChevronDownIcon} from '@heroicons/react/20/solid';
-
+import {
+  Disclosure,
+  DisclosureButton,
+  DisclosurePanel,
+} from "@headlessui/react";
+import React from "react";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 const Navlinks = () => {
   return (
-    <div className="float-right pl-96 pr-16 grid grid-flow-col gap-2  items-center justify-items-center ">
+    <div className="float-right pl-96 pr-16 grid grid-flow-col gap-2 items-center justify-items-center">
       <a href="/" className="text-sm leading-6 text-gray-900">
         Home
       </a>
       <Disclosure>
-        <DisclosureButton className="py-2 gap-0 text-gray-900">
-          Events
-        </DisclosureButton>
-        <ChevronDownIcon
-          aria-hidden="true"
-          className="h-5 w-5 gap-0 text-gray-900"
-        />
+        <div className="flex items-center">
+          <DisclosureButton className="py-2 text-gray-900 flex items-center">
+            Events
+            <ChevronDownIcon
+              aria-hidden="true"
+              className="h-5 w-5 text-gray-900"
+            />
+          </DisclosureButton>
+        </div>
         <DisclosurePanel className="text-gray-900">
           <a href="/" className="text-sm leading-6 text-gray-900">
             Regular Events
@@ -40,15 +44,17 @@ const Navlinks = () => {
           </a>
         </DisclosurePanel>
       </Disclosure>
-      <Disclosure>
-        <DisclosureButton className="py-2 text-gray-900">
-          Support us
-        </DisclosureButton>
-        <ChevronDownIcon
-          aria-hidden="true"
-          className="h-5 w-5 relative text-gray-900"
-        />
 
+      <Disclosure>
+        <div className="flex items-center">
+          <DisclosureButton className="py-2 text-gray-900 flex items-center">
+            Support us
+            <ChevronDownIcon
+              aria-hidden="true"
+              className="h-5 w-5 text-gray-900"
+            />
+          </DisclosureButton>
+        </div>
         <DisclosurePanel className="text-gray-900">
           <a href="/" className="text-sm leading-6 text-gray-900">
             Dana
@@ -70,8 +76,6 @@ const Navlinks = () => {
       </a>
     </div>
   );
-}
+};
 
 export default Navlinks;
-
-
