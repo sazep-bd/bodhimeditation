@@ -5,7 +5,7 @@ export interface EmphasizeParagraphProps {
 
 function EmphasizeParagraph(props: EmphasizeParagraphProps){
     return (
-     <p className="gittext-center text-stone-500 font-normal text-4xl">{props.content}</p>
+     <p className="text-center text-stone-500 font-normal text-4xl">{props.content}</p>
            
     );
 }
