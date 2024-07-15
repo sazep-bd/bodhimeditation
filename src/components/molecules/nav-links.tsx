@@ -23,7 +23,7 @@ const Navlinks = () => {
             />
           </DisclosureButton>
         </div>
-        <DisclosurePanel className="text-gray-900">
+        <DisclosurePanel className="text-gray-900 grid grid-cols-1">
           <a href="/" className="text-sm leading-6 text-gray-900">
             Regular Events
           </a>
@@ -55,7 +55,7 @@ const Navlinks = () => {
             />
           </DisclosureButton>
         </div>
-        <DisclosurePanel className="text-gray-900">
+        <DisclosurePanel className="text-gray-900 grid grid-cols-1">
           <a href="/" className="text-sm leading-6 text-gray-900">
             Dana
           </a>
