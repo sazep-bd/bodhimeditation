@@ -10,7 +10,7 @@ export interface ContactCardProps {
 
 function ContactCard(props:ContactCardProps){
     return (
-        <div>
+        <div className =" text-center flex-col items-center justify-center  ">
             <EmphasizeParagraph content={props.content}></EmphasizeParagraph>
             <Button label={props.label} href={props.href}></Button>
         </div>
