@@ -10,10 +10,10 @@ import React, { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 const Navlinks = () => {
-  const [openDisclosure, setOpenDisclosure] = useState(null);
+  const [openDisclosure, setOpenDisclosure] = useState<number | undefined>(undefined);
 
-  const handleToggle = (index) => {
-    setOpenDisclosure(openDisclosure === index ? null : index);
+  const handleToggle = (index: number) => {
+    setOpenDisclosure(openDisclosure === index ? undefined : index);
   };
 
   return (
